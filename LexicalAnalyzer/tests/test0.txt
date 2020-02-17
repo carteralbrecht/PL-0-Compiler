@@ -1,5 +1,7 @@
 /* This is a lexically valid program in PL/0 */
-var X, Y;
+var
+X +
+2
 BEGIN
 	y := 3;
 	x := y + 56;

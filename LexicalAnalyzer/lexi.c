@@ -199,15 +199,16 @@ int main(int argc, char **argv)
 
         if (c == ':')
         {
-            c = getc(in_file);
+            char next = getc(in_file);
             char_number++;
-            if (c == '=')
+            if (next == '=')
             {
                 addToken(tokens, becomessym, ":=");
                 continue;
-            } else
+            }
+            else
             {
-                ungetc(c, in_file);
+                ungetc(next, in_file);
                 char_number--;
             }
         }
