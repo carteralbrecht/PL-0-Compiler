@@ -1,0 +1,6 @@
+/* This is a lexically valid program in PL/0 */
+var X, Y;
+BEGIN
+	y := 3;
+	x := y + 56;
+end.

@@ -1,0 +1,9 @@
+Source Program:
+/* This is a test input for an invalid symbol */
+var x, y;
+begin
+	y := 3;!
+	x := y + 56;
+end.
+
+test5.txt:4:9: [31mERROR: [0munknown symbol '!'
