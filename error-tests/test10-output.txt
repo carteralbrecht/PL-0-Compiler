@@ -1,0 +1,1 @@
+ERROR: Assignment to constant is not allowed

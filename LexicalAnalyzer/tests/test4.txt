@@ -1,6 +1,0 @@
-/* This is a test input for a comment not being ended */
-var x, y;
-begin
-	y := 3; /* This comment will never end...
-	x := y + 56;
-end.

@@ -1,0 +1,3 @@
+const x = 1234567;
+begin
+end.

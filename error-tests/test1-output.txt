@@ -1,0 +1,1 @@
+ERROR: constant must be given value at declaration

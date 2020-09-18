@@ -1,0 +1,5 @@
+const 3;
+var y;
+begin
+	y := x;
+end.

@@ -1,0 +1,238 @@
+====== Test 0 =====
+const x := 3;
+var y;
+begin
+	y := x;
+end.
+
+ERROR: Use = instead of :=
+
+====================
+
+
+====== Test 1 =====
+const x;
+var y;
+begin
+	y := x;
+end.
+
+ERROR: constant must be given value at declaration
+
+====================
+
+
+====== Test 2 =====
+const x = var z;
+var y;
+begin
+	y := x;
+end.
+
+ERROR: = must be followed by a number
+
+====================
+
+
+====== Test 3 =====
+const x = 3;
+var y;
+begin
+	y x;
+end.
+
+ERROR: := expected after identifier
+
+====================
+
+
+====== Test 4 =====
+const x = 3;
+var y;
+begin
+	y := x;
+.
+
+ERROR: begin without an end
+
+====================
+
+
+====== Test 5 =====
+const x = 3;
+var y;
+begin
+	read 3;
+end.
+
+ERROR: Identifier expected
+
+====================
+
+
+====== Test 6 =====
+const 3;
+var y;
+begin
+	y := x;
+end.
+
+ERROR: const/var must be followed by identifier
+
+====================
+
+
+====== Test 7 =====
+var x y;
+begin
+	y := x;
+end.
+
+ERROR: Semicolon or comma expected
+
+====================
+
+
+====== Test 8 =====
+var y;
+begin
+	y := 3;
+end
+
+ERROR: Period expected
+
+====================
+
+
+====== Test 9 =====
+const x = 3;
+var y;
+begin
+	z := x;
+end.
+
+ERROR: Undeclared identifier
+
+====================
+
+
+====== Test 10 =====
+const x = 1;
+begin
+	x := 3;
+end.
+
+ERROR: Assignment to constant is not allowed
+
+====================
+
+
+====== Test 11 =====
+const x = 3;
+var y;
+begin
+	if x = 3 then y := 2;
+end.
+
+ERROR: Relational operator expected
+
+====================
+
+
+====== Test 12 =====
+const x = 3;
+var y;
+begin
+	y := (4 + 3;
+end.
+
+ERROR: Right parenthesis missing
+
+====================
+
+
+====== Test 13 =====
+var y;
+begin
+	y := *;
+end.
+
+ERROR: A factor cannot begin with this symbol
+
+====================
+
+
+====== Test 14 =====
+var y;
+begin
+	y := x; /* comment
+end.
+
+ERROR: Comment opened and not closed
+
+====================
+
+
+====== Test 15 =====
+const x = 1234567;
+begin
+end.
+
+ERROR: Number exceeds max length
+
+====================
+
+
+====== Test 16 =====
+const 123x = 1;
+begin
+end.
+
+ERROR: Invalid start to identifier
+
+====================
+
+
+====== Test 17 =====
+const xxxxxxxxxxxxxxxx = 1;
+begin
+end.
+
+ERROR: Identifier exceeds max length
+
+====================
+
+
+====== Test 18 =====
+const x = 1;
+begin
+	x & 1;
+end.
+
+ERROR: Unknown symbol
+
+====================
+
+
+====== Test 19 =====
+var x;
+begin
+	while 3 > 3;
+end.
+
+ERROR: do expected
+
+====================
+
+
+====== Test 20 =====
+var x;
+begin
+	if 3 > 3;
+end.
+
+ERROR: then expected
+
+====================
+
+

@@ -1,0 +1,4 @@
+var x;
+begin
+	if 3 > 3;
+end.

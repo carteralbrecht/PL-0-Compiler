@@ -1,0 +1,1 @@
+ERROR: A factor cannot begin with this symbol

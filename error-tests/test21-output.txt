@@ -1,0 +1,1 @@
+ERROR: cannot call a const or var

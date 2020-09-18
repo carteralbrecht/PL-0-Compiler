@@ -1,0 +1,5 @@
+const x = 3;
+var y;
+begin
+	y := (4 + 3;
+end.

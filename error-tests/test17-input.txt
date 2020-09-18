@@ -1,0 +1,3 @@
+const xxxxxxxxxxxxxxxx = 1;
+begin
+end.

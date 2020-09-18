@@ -1,0 +1,14 @@
+procedure efgh;
+    var x;
+    begin
+    x := 3;
+    write x
+    end;
+
+procedure abcd;
+    write x;
+
+begin
+call efgh;
+call abcd
+end.

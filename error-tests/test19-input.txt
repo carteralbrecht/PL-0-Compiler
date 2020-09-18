@@ -1,0 +1,4 @@
+var x;
+begin
+	while 3 > 3;
+end.

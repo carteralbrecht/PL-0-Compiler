@@ -1,6 +1,0 @@
-/* This is a test input for an ident starting with a number */
-var x, y;
-begin
-	y := 3;
-	x := 98y + 56;
-end.
