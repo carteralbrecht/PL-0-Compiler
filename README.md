@@ -49,6 +49,3 @@ To see the demo, from the root directory run
 ```
 
 The expected output for this demo is located in `directives-demo-output.txt`  
-
-## Author
-Written by Carter Albrecht (ca845545) for Montagne's COP3402 class of Spring 2020.
