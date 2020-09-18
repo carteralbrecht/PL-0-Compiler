@@ -1,9 +1,6 @@
-var x,
-y,z,
-v,w;
+var x,y,z,v,w;
 procedure a;
-  var x,y,u
-,v;
+  var x,y,u,v;
   procedure b;
     var y,z,v;
     procedure c;
@@ -13,9 +10,7 @@ procedure a;
         x:=y+z+w
       end;
     begin
-
-      y:=
-x+u+w;
+      y:=x+u+w;
       call c
     end;
   begin

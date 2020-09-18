@@ -1,5 +1,5 @@
 const x = 3;
 var y;
 begin
-	if x = 3 then y := 2;
+	if x 3 then y := 2;
 end.
