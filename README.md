@@ -10,7 +10,7 @@ Use the `make` build automation tool to compile the program
 make
 ```
 
-This will produce the executable program `hw4compiler` 
+This will produce the executable program `compiler` 
 
 In the event of an update to the source code, or if you wish to remove the executable from the directory, run
 
@@ -45,7 +45,7 @@ In the root directory, there is a PL/0 source code file which can be used to dem
 To see the demo, from the root directory run
 
 ```bash
-./hw4compiler directives-demo-input.txt -l -a -v
+./compiler directives-demo-input.txt -l -a -v
 ```
 
 The expected output for this demo is located in `directives-demo-output.txt`  
