@@ -26,7 +26,7 @@ An input is a `.txt` file containing PL/0 source code.
 To run the program type
 
 ```bash
-./hw4compiler <input_file.txt> <flags>
+./compiler <input_file.txt> <flags>
 ```
 
 The program supports three optional flags (in any order):
