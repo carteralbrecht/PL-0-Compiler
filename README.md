@@ -1,6 +1,6 @@
 # PL/0 Compiler and Virtual Machine
 
-This program reads in PL/0 source code, and analyzes it, parses it, generates assembly code, and executes the machine code on a virtual machine
+This program reads in [PL/0](https://en.wikipedia.org/wiki/PL/0) source code, and analyzes it, parses it, generates assembly code, and executes the machine code on a virtual machine
 
 ## Compilation 
 
@@ -36,7 +36,7 @@ The program supports three optional flags (in any order):
 
 In the event of an error, the program will halt and print a message containing the type of error 
 
-To see examples of the types of errors you may encounter, see `error-tests\all-error-outputs.txt`
+To see examples of the types of errors you may encounter, see `error-tests/all-error-outputs.txt`
 
 ## Demo
 
